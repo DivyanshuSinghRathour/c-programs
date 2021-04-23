@@ -191,7 +191,7 @@ struct node *display(struct node *start)
     }
     return start;
 }
-int main(int argc,char *argv[])
+int main()
 {
     int data, after, after_del, before;
     int option;
