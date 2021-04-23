@@ -167,7 +167,7 @@ struct node *delete_node(struct node *star, int data)
         return start;
     }
 }
-struct node *delete_list(struct node *star)
+struct node *delete_list(struct node *start)
 {
     struct node *ptr;
     ptr = start;
