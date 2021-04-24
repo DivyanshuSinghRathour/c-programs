@@ -167,7 +167,7 @@ struct node *delete_node(struct node *star, int data)
         return start;
     }
 }
-struct node *delete_list(struct node *star)
+struct node *delete_list(struct node *start)
 {
     struct node *ptr;
     ptr = start;
@@ -191,7 +191,7 @@ struct node *display(struct node *start)
     }
     return start;
 }
-int main(int argc,char *argv[])
+int main()
 {
     int data, after, after_del, before;
     int option;
