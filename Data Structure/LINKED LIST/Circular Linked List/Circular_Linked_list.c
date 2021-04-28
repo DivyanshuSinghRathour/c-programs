@@ -176,7 +176,7 @@ struct node * delete_node(struct node * start,int data)
     p=start;
     if(p->data==data)
     {
-        start=delete_end(start);
+        start=delete_beginning(start);
         return start;
     }
     else
@@ -221,7 +221,7 @@ int main()
         printf("7: deletion at beginning\n");
         printf("8: deletion at end\n");
         printf("9: deletion the node after the node\n");
-        printf("10: deletion of the which you want to delete\n");
+        printf("10: deletion of the node which you want to delete\n");
         printf("11: delettion of whole linked list\n");
         printf("Please enter your choice: ");
         scanf("%d",&option);
