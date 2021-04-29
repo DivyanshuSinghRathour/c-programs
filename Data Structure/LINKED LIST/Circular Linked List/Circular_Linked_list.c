@@ -176,7 +176,7 @@ struct node * delete_node(struct node * start,int data)
     p=start;
     if(p->data==data)
     {
-        start=delete_end(start);
+        start=delete_beginning(start);
         return start;
     }
     else
